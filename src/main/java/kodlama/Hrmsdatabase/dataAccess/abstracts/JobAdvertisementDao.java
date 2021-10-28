@@ -17,6 +17,7 @@ public interface JobAdvertisementDao extends JpaRepository<JobAdvertisement, Int
 	List<JobAdvertisementWithEmployers> getJobAdvertisementWithEmployers(); */
 }
 /*
+ * asdasd
   	@Query("Select new kodlamaio.nortwind.entities.dtos.ProductWithCategoryDtos"
 			+ "(p.id,p.productName,c.categoryName) "
 			+ "From Category c Inner Join c.products p")
